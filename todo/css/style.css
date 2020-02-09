@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 1.5rem;
+  background: #F8F8FF;
+  font-family: 'Comic Sans MS';
+}
+
+input {
+  font-family: 'Comic Sans MS';
+  font-size: 1.5rem;
+  color: #333333;
+  line-height: 3vw;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.panel {
+  margin: 0 auto;
+  border: 1px solid #9e9e9e;
+  border-radius: 5px;
+  min-height: 20vh;
+  width: 100%;
+}
+
+.panel-heading {
+  display: inline-flex;
+  width: 100%;
+  background-color: #ededed;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 8vw;
+}
+
+.panel-title {
+  line-height: 35px;
+  text-align: center;
+  margin-left: 5vw;
+}
+
+.panel-login {
+  line-height: 35px;
+  text-align: center;
+  margin-right: 5vw;
+}
+
+.panel-logout {
+  line-height: 35px;
+  text-align: center;
+  margin-right: 5vw;
+}
+
+.panel-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  margin: 5vh auto;
+}
+
+.input_form {
+  width: 70vw;
+}
+
+.input-group {
+  display: flex;
+  border: 1px solid #9e9e9e;
+  border-radius: 5px;
+}
+
+.input-control {
+  background-color: inherit;
+  border: none;
+  width: 100%;
+  height: 5vh;
+  padding: 0 .6vw;
+}
+
+.list-group {
+  width: 100%;
+}
+
+.list-group-item {
+  height: 6vh;
+  line-height: 6vh;
+  font-size: 1.5rem;
+  width: 100%;
+  margin-bottom: 2vw;
+  display: inline-flex;
+  justify-content: space-between;
+  border: 1px solid #9e9e9e;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.task_text {
+  margin-left: .6vw;
+}
+
+.badge {
+  text-align: center;
+  width: 5.4vh;
+  padding: 10px;
+  font-size: 1.5rem;
+  line-height: 3.5vh;
+  color: #333333;
+  background-color: inherit;
+  border: none;
+  transition: .5s;
+}
+
+.badge:hover {
+  color: white;
+  background-color: red;
+  transition: .5s;
+}
+
+.btn {
+  width: 8vh;
+  padding: 10px;
+  font-size: 30px;
+  line-height: 15px;
+  color: white;
+  background-color: #5F9EA0;
+  border: none;
+  transition: .5s;
+}
+
+.btn:hover {
+  color: #5F9EA0;
+  background-color: white;
+  transition: .5s;
+}
